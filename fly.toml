@@ -15,3 +15,7 @@ primary_region = "hkg"
   auto_start_machines = true
   min_machines_running = 0
   processes = ["app"]
+
+[mounts]
+destination = "/opt/alist/data"
+source = "data"
