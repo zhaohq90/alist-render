@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - v3
+  workflow_dispatch:
 jobs:
   deploy:
     name: Deploy app
